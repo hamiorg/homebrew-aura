@@ -9,12 +9,12 @@ class Aura < Formula
   on_macos do
     on_arm do
       url "https://github.com/hamiorg/aura/releases/download/v0.1.0-alpha.1/aura-v0.1.0-alpha.1-macos-arm64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "06f93515b21bea633d7585de1b2c625775088f2be43296ceda77602bde3330b7"
     end
 
     on_intel do
       url "https://github.com/hamiorg/aura/releases/download/v0.1.0-alpha.1/aura-v0.1.0-alpha.1-macos-x86_64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "17c0b695638ccb340208c70969d618f16a50a1f3953fd5e1c958161f117ca638"
     end
   end
 
