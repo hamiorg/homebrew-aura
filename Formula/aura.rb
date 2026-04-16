@@ -9,24 +9,24 @@ class Aura < Formula
   on_macos do
     on_arm do
       url "https://github.com/hamiorg/aura/releases/download/v0.1.0-alpha.1/aura-v0.1.0-alpha.1-macos-arm64.tar.gz"
-      sha256 "06f93515b21bea633d7585de1b2c625775088f2be43296ceda77602bde3330b7"
+      sha256 "c918e3654d944fefa0957c1a9cc0e3a090954f6c3d37711899d5c4b677116a8c"
     end
 
     on_intel do
       url "https://github.com/hamiorg/aura/releases/download/v0.1.0-alpha.1/aura-v0.1.0-alpha.1-macos-x86_64.tar.gz"
-      sha256 "17c0b695638ccb340208c70969d618f16a50a1f3953fd5e1c958161f117ca638"
+      sha256 "a6179fc1c309ff0d12a6e23a5b49f621d3adcb80a6238f09894b62f84e966d71"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hamiorg/aura/releases/download/v0.1.0-alpha.1/aura-v0.1.0-alpha.1-linux-x86_64.tar.gz"
-      sha256 "790c7f2f0730da9d0684d482ebe6636db1f1fe3f2f7bbed2aa8d81edf1c1db03"
+      sha256 "da17bab6b2162181de66dad592262106aefc1a4f37aae7ca95d66b33050144db"
     end
 
     on_arm do
       url "https://github.com/hamiorg/aura/releases/download/v0.1.0-alpha.1/aura-v0.1.0-alpha.1-linux-arm64.tar.gz"
-      sha256 "f5a0a8ca66a76d35bcbb0d8ca3e1a05c9602be9cafabb1c3e2d4a80b32caf26d"
+      sha256 "b9655573ce8443e6e63a66513a3ca7b860bcfe6a8438fb31061496d8b1d43b8a"
     end
   end
 
