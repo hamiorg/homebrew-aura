@@ -3,30 +3,30 @@
 class Aura < Formula
   desc "AURA toolchain CLI -- compile .aura source to .atom/.hami/.atlas"
   homepage "https://hami.aduki.org"
-  version "0.2.0-alpha.1"
+  version "0.3.0-alpha.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hamiorg/aura/releases/download/v0.2.0-alpha.1/aura-v0.2.0-alpha.1-macos-arm64.tar.gz"
-      sha256 "948e15bbc930752891dbe9fa120fc740c5501a8a3ace7389b141c0a6da7bafb6"
+      url "https://github.com/hamiorg/aura/releases/download/v0.3.0-alpha.1/aura-v0.3.0-alpha.1-macos-arm64.tar.gz"
+      sha256 "ba3cc233a5d5df8602f321be918fa7924a29eebe37d01dc1e4cf53383a5d8bca"
     end
 
     on_intel do
-      url "https://github.com/hamiorg/aura/releases/download/v0.2.0-alpha.1/aura-v0.2.0-alpha.1-macos-x86_64.tar.gz"
-      sha256 "04eb24c17cf8d5db8b5ea9b0d296fc1e19b60a687dd53582abace7075c0d3c19"
+      url "https://github.com/hamiorg/aura/releases/download/v0.3.0-alpha.1/aura-v0.3.0-alpha.1-macos-x86_64.tar.gz"
+      sha256 "4b920d17e8731ad13af1ed3b1c7cfaeafd77cec7b838b039dfe73ab1bb1ba961"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/hamiorg/aura/releases/download/v0.2.0-alpha.1/aura-v0.2.0-alpha.1-linux-x86_64.tar.gz"
-      sha256 "f05866ffdb68289594575a4863d0140681878ee8a93ab8b4f3b360fa40ccb61a"
+      url "https://github.com/hamiorg/aura/releases/download/v0.3.0-alpha.1/aura-v0.3.0-alpha.1-linux-x86_64.tar.gz"
+      sha256 "1acdfc38fbc2424f73a03dc763974fc7c11d07f59951cb06f4ce3ed22a5556d1"
     end
 
     on_arm do
-      url "https://github.com/hamiorg/aura/releases/download/v0.2.0-alpha.1/aura-v0.2.0-alpha.1-linux-arm64.tar.gz"
-      sha256 "a2d6c6cb7737d33c8e7b2a9564dbda44f74c6b7e676ca0b2c768dcf3c01c4ce9"
+      url "https://github.com/hamiorg/aura/releases/download/v0.3.0-alpha.1/aura-v0.3.0-alpha.1-linux-arm64.tar.gz"
+      sha256 "b86447aced9313b657d72e3c1670aacffd3d5ab5c8ca7a1ce94710e17b5bfbf1"
     end
   end
 
