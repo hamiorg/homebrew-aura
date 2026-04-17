@@ -9,24 +9,24 @@ class Aura < Formula
   on_macos do
     on_arm do
       url "https://github.com/hamiorg/aura/releases/download/v0.3.2-beta.2/aura-v0.3.2-beta.2-macos-arm64.tar.gz"
-      sha256 "ab7c6b1676b1cad85ba10802796c4535d6d43d1422f532b26fb04c9b5199405b"
+      sha256 "1cae09b467def625ba5336fdc38c0421da3a8f12d55763cdc493e3baaf2ada58"
     end
 
     on_intel do
       url "https://github.com/hamiorg/aura/releases/download/v0.3.2-beta.2/aura-v0.3.2-beta.2-macos-x86_64.tar.gz"
-      sha256 "29e794e1f1496d59a1f6bf0ba82139c36a74918c13287cb00ab572a47b4432e3"
+      sha256 "5b6ab54214856fd49a7a184bd297de77cf228466a35e1028c9dc04637cc87d65"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hamiorg/aura/releases/download/v0.3.2-beta.2/aura-v0.3.2-beta.2-linux-x86_64.tar.gz"
-      sha256 "2ad48037fd8e913e441e11279f3c49cb591dfd25d17dc5908e1927ec80adbeba"
+      sha256 "62a0c67fdd6c04f315bc00e3cc73c826fcb66a893c6ea7fd28e984292c761154"
     end
 
     on_arm do
       url "https://github.com/hamiorg/aura/releases/download/v0.3.2-beta.2/aura-v0.3.2-beta.2-linux-arm64.tar.gz"
-      sha256 "7153829aedc96e627c2d30220a1afbd799b4b5aa54b4e9a640116c01ac41cada"
+      sha256 "4bbf2c27a3f8189f8e0c6e87fa5fe9ac8f2c97c33181a2bedb998c2751282aea"
     end
   end
 
